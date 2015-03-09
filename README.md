@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> USPTO: United State Patent and Trademark Office
+# Ruby » <br> USPTO: United State Patent and Trademark Office
 
 * Doc: <http://sixarm.com/sixarm_ruby_uspto/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_uspto>
