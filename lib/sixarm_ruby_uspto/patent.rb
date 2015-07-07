@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require 'nokogiri'
+require "nokogiri"
 
 class Patent
 
