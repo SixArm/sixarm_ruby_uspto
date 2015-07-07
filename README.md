@@ -52,8 +52,3 @@ To install with high security:
     patent.id #=> "US1234"
     patent.date #=> "20120101"
     patent.claims #=> XML element of claim items
-
-
-## Changes
-
-* 2012-05-10 1.0.0 Publish
