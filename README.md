@@ -1,4 +1,7 @@
-# Ruby » <br> USPTO: United State Patent and Trademark Office
+# SixArm.com » Ruby » <br> USPTO: United State Patent and Trademark Office
+
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_uspto.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_uspto)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_uspto.png)](https://travis-ci.org/SixArm/sixarm_ruby_uspto)
 
 * Doc: <http://sixarm.com/sixarm_ruby_uspto/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_uspto>
@@ -9,7 +12,10 @@
 
 Provides a "Patent" class for working with USPTO Gazette XML.
 
-See USPTO Bulk Downloads: Patent Grant Full Text                                                                                                                                                                                                                            http://www.google.com/googlebooks/uspto-patents-grants-text.html
+See USPTO Bulk Downloads: Patent Grant Full Text:<br>
+http://www.google.com/googlebooks/uspto-patents-grants-text.html
+
+For docs go to <http://sixarm.com/sixarm_ruby_uspto/doc>
 
 
 ## Install quickstart
@@ -20,7 +26,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_uspto", "~> 1.0.0"
+    gem "sixarm_ruby_uspto", ">=1.0.1", "<2"
 
 Require:
 
