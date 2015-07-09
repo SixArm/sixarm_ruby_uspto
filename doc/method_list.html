@@ -15,11 +15,16 @@
       <script type="text/javascript" charset="utf-8" src="js/full_list.js"></script>
     
 
+    <title>Method List</title>
     <base id="base_target" target="_parent" />
   </head>
   <body>
     <script type="text/javascript" charset="utf-8">
-      if (window.top.frames.main) {
+      var hasFrames = false;
+      try {
+        hasFrames = window.top.frames.main ? true : false;
+      } catch (e) { }
+      if (hasFrames) {
         document.getElementById('base_target').target = 'main';
         document.body.className = 'frames';
       }
@@ -48,49 +53,37 @@
 
   <li class="r1 ">
     <span class='object_link'><a href="Patent.html#claims-instance_method" title="Patent#claims (method)">#claims</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
   <li class="r2 ">
     <span class='object_link'><a href="Patent.html#date-instance_method" title="Patent#date (method)">#date</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
   <li class="r1 ">
     <span class='object_link'><a href="Patent.html#doc-instance_method" title="Patent#doc (method)">#doc</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
   <li class="r2 ">
     <span class='object_link'><a href="Patent.html#id-instance_method" title="Patent#id (method)">#id</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
   <li class="r1 ">
     <span class='object_link'><a href="Patent.html#initialize-instance_method" title="Patent#initialize (method)">#initialize</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
   <li class="r2 ">
     <span class='object_link'><a href="Patent.html#xml_file_name-instance_method" title="Patent#xml_file_name (method)">#xml_file_name</a></span>
-    
-      <small>Patent</small>
-    
+    <small>Patent</small>
   </li>
   
 
