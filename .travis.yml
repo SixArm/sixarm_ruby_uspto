@@ -1,5 +1,7 @@
 sudo: false
 cache: bundler
+sudo: false
+cache: bundler
 language: ruby
 rvm:
   - ruby-head
