@@ -3,6 +3,5 @@
 Please see README
 =end
 
-['patent'].map{|x|
-  require File.dirname(__FILE__) + "/sixarm_ruby_uspto/#{x}.rb"
-}
+require "sixarm_ruby_uspto/patent"
+

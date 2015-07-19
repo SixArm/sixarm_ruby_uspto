@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_uspto"
   s.summary        = "SixArm.com » Ruby » USPTO"
   s.description    = "U.S. Patent and Trademark Office parsing helpers"
-  s.version        = "1.0.1"
+  s.version        = "1.0.2"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -36,6 +36,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake', '> 10.4.2', '< 11')
   s.add_development_dependency('simplecov', '>= 0.10.0', '< 2')
   s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
-  s.add_development_dependency('nokogiri', '> 1.6.6.2', '< 2')
 
 end

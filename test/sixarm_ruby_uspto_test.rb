@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 require "minitest/autorun"
+require "coveralls"
 require "simplecov"
+Coveralls.wear!
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
 SimpleCov.start
+require "sixarm_ruby_uspto"
 
-['patent'].map{|x|
-  require "sixarm_ruby_uspto_test/#{x}_test.rb"
-}
 
