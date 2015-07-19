@@ -3,5 +3,5 @@
 Please see README
 =end
 
-require "sixarm_ruby_uspto/patent"
+require_relative "sixarm_ruby_uspto/patent"
 
