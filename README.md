@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> USPTO: United State Patent and Trademark Office
+# SixArm.com → Ruby → <br> USPTO: United State Patent and Trademark Office
 
 <!--HEADER-OPEN-->
 
@@ -11,9 +11,7 @@
 * Doc: <http://sixarm.com/sixarm_ruby_uspto/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_uspto>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Changes: See CHANGES.md file.
-* License: See LICENSE.md file.
-* Helping: See CONTRIBUTING.md file.
+* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
 <!--HEADER-SHUT-->
 
@@ -31,23 +29,21 @@ For docs go to <http://sixarm.com/sixarm_ruby_uspto/doc>
 
 ## Install
 
-To install using a Gemfile, add this:
+### Gem
 
-    gem "sixarm_ruby_uspto", ">= 1.0.2", "< 2"
+Run this command in your shell or terminal:
 
-To install using the command line, run this:
+    gem install sixarm_ruby_uspto
 
-    gem install sixarm_ruby_uspto -v ">= 1.0.2, < 2"
+Or add this to your Gemfile:
 
-To install using the command line with high security, run this:
+    gem 'sixarm_ruby_uspto'
 
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_uspto -v ">= 1.0.2, < 2" --trust-policy HighSecurity
+### Require
 
 To require the gem in your code:
 
-    require "sixarm_ruby_uspto"
+    require 'sixarm_ruby_uspto'
 
 <!--INSTALL-SHUT-->
 

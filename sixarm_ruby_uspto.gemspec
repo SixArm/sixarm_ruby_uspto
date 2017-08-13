@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_uspto"
   s.summary        = "SixArm.com → Ruby → USPTO"
   s.description    = "U.S. Patent and Trademark Office parsing helpers"
-  s.version        = "1.0.2"
+  s.version        = "1.0.3"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
